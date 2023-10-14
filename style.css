@@ -265,6 +265,47 @@ h2 {
 
 /* -------------------Category Cards------------------------ */
 
+/* glassmorphism */
+
+.glassmorph{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  position: relative;
+  width: 250px;
+  height: 300px;
+  margin: 4rem 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(15px);
+}
+
+.card .imgbox{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover .imgbox{
+  transform: translateY(-100px) rotate(-25deg);
+}
+
+.card .imgbox img{
+  max-width: 100%;
+}
+
+
+
+
+
 .headingcard {
   margin: 5rem 0 15px 0;
 }
