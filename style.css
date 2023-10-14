@@ -352,6 +352,14 @@ h2 {
   text-decoration: none;
 }
 
+.social-links a:hover{
+  color: #ff3333;
+}
+
+.team-card p:hover{
+    font-weight: bold; 
+    color: #111;
+}
 
 
 
